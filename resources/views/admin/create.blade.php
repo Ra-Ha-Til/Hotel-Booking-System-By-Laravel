@@ -36,7 +36,12 @@
                             <div>
                                 <label>Room Type</label>
 
-                                <select>
+                                <select name="type">
+
+                                    <option>
+
+                                    </option>
+
 
 
                                 </select>
