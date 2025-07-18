@@ -60,6 +60,11 @@
                                 <label>Upload Image</label>
                                 <input type="file" name="image">
                             </div>
+
+                            <div>
+                                <input class="btn btn-primary" type="submit" value="Add Room">
+                            </div>
+
                         </form>
                     </div>
 
