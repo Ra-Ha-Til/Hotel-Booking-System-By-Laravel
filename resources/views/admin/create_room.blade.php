@@ -67,7 +67,7 @@
                                 </select>
                             </div>
 
-                            <div>
+                            <div class="div_deg">
                                 <label>Upload Image</label>
                                 <input type="file" name="image">
                             </div>
