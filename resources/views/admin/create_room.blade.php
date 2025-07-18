@@ -36,7 +36,7 @@
                     <div class="div_center">
 
                         <h1 style="font-size: 30px; font-weight: bold;"> Add Rooms</h1>
-                        <form>
+                        <form action="" method="" enctype="multipart/form-data">
                             <div class="div_deg">
                                 <label>Room Title</label>
                                 <input type="text" name="title">
