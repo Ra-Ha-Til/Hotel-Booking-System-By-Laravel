@@ -40,7 +40,7 @@
                               </li>
 
 
-                                        @if (Route::has('login'))
+            @if (Route::has('login'))
                 <nav class="flex items-center justify-end gap-4">
                     @auth
                         <a
@@ -49,14 +49,14 @@
                         >
                             Dashboard
                         </a>
-                    @else
+                        @else
                         
-                        <li class="nav-item" style ="padding-right: 10px;">
+                        <li class="nav-item" style ="padding-right: 5px;">
                                  <a class="btn btn-success" href="{{url('login')}}">Login</a>
                               </li>
 
                         @if (Route::has('register'))
-                        
+
                           <li class="nav-item">
                                  <a class="btn btn-primary" href="{{url('register')}}">Register</a>
                               </li>
@@ -66,67 +66,6 @@
             @endif
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                               @if (Route::has('login'))
-                <nav class="flex items-center justify-end gap-4">
-                    @auth
-                        <a
-                            href="{{ url('/home') }}"  
-                            class="inline-block px-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal"
-                        >
-                            Dashboard
-                        </a>
-                    @else
-                     @if (Route::has('login'))
-
-                <nav class="flex items-center justify-end gap-4">
-                    @auth
-                        <a
-                            href="{{ url('/home') }}"  
-                            class="inline-block px-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal"
-                        >
-                            Dashboard
-                        </a>
-                    @else
-                      
-
-                        @if (Route::has('register'))
-                             <li class="nav-item">
-                                 <a class="btn btn-primary" href="{{url('register')}}">Register</a>
-                              </li>
-                           
-                        @endif
-                    @endauth
-                </nav>
-            @endif
-
-                        @if (Route::has('register'))
-                            <a
-                                href="{{ route('register') }}"
-                                class="inline-block px-5 py-1.5 border-[#19140035] hover:border-[#1915014a] border text-[#1b1b18] rounded-sm text-sm leading-normal">
-                                Register
-                            </a>
-                        @endif
-                    @endauth
-                </nav>
-            @endif
 
 
                               
