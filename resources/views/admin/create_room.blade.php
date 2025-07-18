@@ -10,8 +10,8 @@
             width: 200px;
         }
 
-        .dev_deg {
-            padding-top: 300px;
+        .div_deg {
+            padding-top: 30px;
         }
     </style>
 </head>
@@ -23,9 +23,6 @@
         <!-- Sidebar Navigation-->
         @include('admin.sidebar')
         <!-- Sidebar Navigation end-->
-
-
-
 
         <div class="page-content">
             <div class="page-header">
