@@ -20,7 +20,9 @@
             <div class="page-header">
                 <div class="container-fluid">
 
-                    <div>
+                    <div class="div_center">
+
+                        <h1 style="font-size: 30px; font-weight: bold;"> Add Rooms</h1>
                         <form>
                             <div>
                                 <label>Room Title</label>
