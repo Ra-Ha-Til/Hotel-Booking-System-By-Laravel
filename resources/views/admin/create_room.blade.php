@@ -13,6 +13,11 @@
         .div_deg {
             padding-top: 30px;
         }
+
+        .div_center {
+            text-align: center;
+            padding-top: 40px;
+        }
     </style>
 </head>
 
@@ -28,7 +33,7 @@
             <div class="page-header">
                 <div class="container-fluid">
 
-                    <div>
+                    <div class="div_center">
 
                         <h1 style="font-size: 30px; font-weight: bold;"> Add Rooms</h1>
                         <form>
