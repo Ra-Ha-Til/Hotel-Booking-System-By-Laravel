@@ -3,6 +3,12 @@
 
 <head>
     @include('admin.css')
+
+    <style type="text/css">
+        label {
+            display: inline-block
+        }
+    </style>
 </head>
 
 <body>
