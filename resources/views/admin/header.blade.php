@@ -191,6 +191,5 @@
                 <div class="list-inline-item logout">
                 </div>
             </div>
-        </div>
     </nav>
 </header>
