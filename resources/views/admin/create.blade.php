@@ -42,10 +42,19 @@
                                     <option value="premium"> Premium</option>
                                     <option value="deluxe"> Deluxe</option>
 
+                                </select>
+                            </div>
 
+                            <div>
+                                <label>Wifi</label>
+
+                                <select name="type">
+
+                                    <option selected value="regular"> Regular</option>
+                                    <option value="premium"> Premium</option>
+                                    <option value="deluxe"> Deluxe</option>
 
                                 </select>
-
                             </div>
                         </form>
                     </div>
