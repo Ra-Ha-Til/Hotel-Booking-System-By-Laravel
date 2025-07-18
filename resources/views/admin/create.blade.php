@@ -46,14 +46,12 @@
                             </div>
 
                             <div>
-                                <label>Wifi</label>
+                                <label>Free Wifi</label>
 
                                 <select name="type">
 
-                                    <option selected value="regular"> Regular</option>
-                                    <option value="premium"> Premium</option>
-                                    <option value="deluxe"> Deluxe</option>
-
+                                    <option selected value="yes"> Yes</option>
+                                    <option value="no"> No</option>
                                 </select>
                             </div>
                         </form>
