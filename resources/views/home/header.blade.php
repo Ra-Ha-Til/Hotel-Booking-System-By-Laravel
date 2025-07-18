@@ -40,7 +40,7 @@
                               </li>
 
                               <li class="nav-item" style ="padding-right: 10px;">
-                                 <a class="btn btn-success" href="contact.html">Login</a>
+                                 <a class="btn btn-success" href="{{url('login')}}">Login</a>
                               </li>
 
                               <li class="nav-item">
