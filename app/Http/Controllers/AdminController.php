@@ -17,11 +17,18 @@ class AdminController extends Controller
             if($usertype == 'user')
             {
                 return view('dashboard'); //after login goto the dashboard
+        
             }
+
           //...........when admin login.................
-             if($usertype == 'admin')
+             else if($usertype == 'admin')
             {
                 return view('admin.index'); //after login goto the admin index
+            }
+
+            else
+            {
+                 return redirect()-> back();  //if database not find the user then user see the same page
             }
         }
 
