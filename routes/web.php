@@ -8,5 +8,6 @@ route::get('/', [AdminController::class, 'home']);
 
 
 route::get('/home', [AdminController::class, 'index'])->name('home');
-route::get('/create_room', [AdminController::class, 'index'])->name('create_room');
+route::get('/create_room', [AdminController::class, 'index']);
+route::post('/add_room', [AdminController::class, 'index'];
 route::get('/view_room', [AdminController::class, 'index'])->name('view_room');
