@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-
 use App\Models\User;
+use App\Models\Room;
 use Illuminate\Support\Facades\Auth;
+
 
 class AdminController extends Controller
 {
@@ -38,6 +39,13 @@ class AdminController extends Controller
     {
         return view('admin.create_room');
     }
+
+    public function add_room(Request $request)
+    {
+        return view('admin.create_room');
+    }
+
+
 
 
 }
