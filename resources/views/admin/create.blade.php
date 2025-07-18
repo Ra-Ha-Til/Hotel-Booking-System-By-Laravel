@@ -39,9 +39,7 @@
                                 <select name="type">
 
                                     <option selected value="regular"> Regular</option>
-
                                     <option value="premium"> Premium</option>
-
                                     <option value="deluxe"> Deluxe</option>
 
 
