@@ -61,7 +61,7 @@
                                 class="badge dashbg-1">5</span></a>
                         <div aria-labelledby="navbarDropdownMenuLink1" class="dropdown-menu messages"><a href="#"
                                 class="dropdown-item message d-flex align-items-center">
-                                <div class="profile"><img src="img/avatar-3.jpg" alt="..." class="img-fluid">
+                                <div class="profile"><img src="admin/img/Rahatil.png" alt="..." class="img-fluid">
                                     <div class="status online"></div>
                                 </div>
                                 <div class="content"> <strong class="d-block">Nadia Halsey</strong><span
