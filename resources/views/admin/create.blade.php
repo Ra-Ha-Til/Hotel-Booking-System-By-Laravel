@@ -33,6 +33,10 @@
                                 <label>Price</label>
                                 <input type="number" name="price">
                             </div>
+                            <div>
+                                <label>Room Type</label>
+                                <input type="number" name="price">
+                            </div>
                         </form>
                     </div>
 
