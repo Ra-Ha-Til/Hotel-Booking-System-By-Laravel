@@ -56,7 +56,7 @@
                                 </select>
                             </div>
 
-                            <div>
+                            <div class="div_deg">
                                 <label>Free Wifi</label>
 
                                 <select name="type">
