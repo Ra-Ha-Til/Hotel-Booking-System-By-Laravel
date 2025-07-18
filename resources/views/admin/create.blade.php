@@ -38,11 +38,11 @@
 
                                 <select name="type">
 
-                                    <option value="regular"> Regular</option>
+                                    <option selected value="regular"> Regular</option>
 
-                                    <option value="regular"> Regular</option>
+                                    <option value="premium"> Premium</option>
 
-                                    <option value="regular"> Regular</option>
+                                    <option value="deluxe"> Deluxe</option>
 
 
 
