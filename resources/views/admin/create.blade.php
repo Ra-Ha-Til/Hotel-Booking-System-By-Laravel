@@ -55,6 +55,11 @@
 
                                 </select>
                             </div>
+
+                            <div>
+                                <label>Price</label>
+                                <input type="number" name="price">
+                            </div>
                         </form>
                     </div>
 
