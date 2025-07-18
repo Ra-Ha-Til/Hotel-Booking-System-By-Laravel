@@ -13,9 +13,29 @@
         @include('admin.sidebar')
         <!-- Sidebar Navigation end-->
 
-        <!-- body-->
-        @include('admin.body')
-        <!-- end body-->
+        <div class="page-content">
+            <div class="page-header">
+                <div class="container-fluid">
+
+
+                    <div>
+                        <form>
+
+
+                            <div>
+                                <label>Room Title</label>
+                            </div>
+
+
+
+
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
 
         <!-- footer-->
         @include('admin.footer')
