@@ -24,6 +24,7 @@
 
                             <div>
                                 <label>Room Title</label>
+                                <input type="text" name="title">
                             </div>
 
 
