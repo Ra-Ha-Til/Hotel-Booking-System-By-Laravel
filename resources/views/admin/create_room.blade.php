@@ -31,7 +31,7 @@
 
                         <h1 style="font-size: 30px; font-weight: bold;"> Add Rooms</h1>
                         <form>
-                            <div>
+                            <div class="div_deg">
                                 <label>Room Title</label>
                                 <input type="text" name="title">
                             </div>
