@@ -57,8 +57,8 @@
                             </div>
 
                             <div>
-                                <label>Price</label>
-                                <input type="number" name="price">
+                                <label>Upload Image</label>
+                                <input type="file" name="price">
                             </div>
                         </form>
                     </div>
