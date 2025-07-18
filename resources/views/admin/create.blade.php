@@ -20,27 +20,19 @@
 
                     <div>
                         <form>
-
-
                             <div>
                                 <label>Room Title</label>
                                 <input type="text" name="title">
                             </div>
-
                             <div>
                                 <label>Description</label>
 
                                 <textarea name="description"></textarea>
                             </div>
-
                             <div>
                                 <label>Price</label>
                                 <input type="number" name="price">
                             </div>
-
-
-
-
                         </form>
                     </div>
 
