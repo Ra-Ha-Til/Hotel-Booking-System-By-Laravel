@@ -176,6 +176,8 @@
                 </div>
                 <!-- Megamenu end     -->
                 <!-- Languages dropdown    -->
+
+
                 <div class="list-inline-item dropdown"><a id="languages" rel="nofollow" data-target="#" href="#"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                         class="nav-link language dropdown-toggle"><img src="img/flags/16/GB.png" alt="English"><span
