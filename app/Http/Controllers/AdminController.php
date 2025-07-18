@@ -10,25 +10,20 @@ class AdminController extends Controller
 {
     public function index()
     {
-        if(Auth::id()) //if someone try to login
+        if (Auth::id()) //if someone try to login
         {
             $usertype = Auth()->user()->usertype;
             //...........Check user login.................
-            if($usertype == 'user')
-            {
-                return view('dashboard'); //after login goto the dashboard
-        
+            if ($usertype == 'user') {
+                return view('home.index'); //after login goto the dashboard
+
             }
 
-          //...........Check admin login.................
-             else if($usertype == 'admin')
-            {
+            //...........Check admin login.................
+            else if ($usertype == 'admin') {
                 return view('admin.index'); //after login goto the admin index
-            }
-
-            else
-            {
-                 return redirect()-> back();  //if database not find the user then user see the same page
+            } else {
+                return redirect()->back();  //if database not find the user then user see the same page
             }
         }
 
