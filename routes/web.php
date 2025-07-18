@@ -9,4 +9,4 @@ Route::get('/', function () {
 
 
 
-route::get('/home',[AdminController::class,'index']);
+route::get('/home',[AdminController::class,'index'])-> name('home');
