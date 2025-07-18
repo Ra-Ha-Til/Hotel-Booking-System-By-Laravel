@@ -38,4 +38,6 @@ class AdminController extends Controller
     {
         return view('admin.create_room');
     }
+
+
 }
