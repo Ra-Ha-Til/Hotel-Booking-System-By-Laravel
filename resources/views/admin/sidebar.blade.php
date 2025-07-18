@@ -16,8 +16,8 @@
                     class="icon-windows"></i>Hotel Rooms </a>
             <ul id="exampledropdownDropdown" class="collapse list-unstyled ">
                 <li><a href="{{ url('create_room') }}">Add Rooms</a></li>
-                <li><a href="#">Page</a></li>
-                <li><a href="#">Page</a></li>
+                <li><a href="#">View Rooms</a></li>
+
             </ul>
         </li>
 
