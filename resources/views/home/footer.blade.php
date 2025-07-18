@@ -17,7 +17,6 @@
                         <li><a href="about.html"> about</a></li>
                         <li><a href="room.html">Our Room</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                      </ul>
                   </div>
