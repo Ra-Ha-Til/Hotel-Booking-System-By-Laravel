@@ -16,9 +16,9 @@ return new class extends Migration {
             $table->string('image')->nullable();
             $table->string('description')->nullable();
             $table->string('price')->nullable();
-            $table->string('room_title')->nullable();
-            $table->string('room_title')->nullable();
-            $table->string('room_title')->nullable();
+            $table->string('wifi')->nullable();
+            $table->string('room_type')->nullable();
+
             $table->timestamps();
         });
     }
