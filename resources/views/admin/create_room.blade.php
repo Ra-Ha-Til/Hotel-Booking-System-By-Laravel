@@ -72,7 +72,7 @@
                                 <input type="file" name="image">
                             </div>
 
-                            <div>
+                            <div class="div_deg">
                                 <input class="btn btn-primary" type="submit" value="Add Room">
                             </div>
 
