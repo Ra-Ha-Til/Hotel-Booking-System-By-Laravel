@@ -35,7 +35,12 @@
                             </div>
                             <div>
                                 <label>Room Type</label>
-                                <input type="number" name="price">
+
+                                <select>
+
+
+                                </select>
+
                             </div>
                         </form>
                     </div>
