@@ -44,7 +44,7 @@
                                 <label>Price</label>
                                 <input type="number" name="price">
                             </div>
-                            <div>
+                            <div class="div_deg">
                                 <label>Room Type</label>
 
                                 <select name="type">
