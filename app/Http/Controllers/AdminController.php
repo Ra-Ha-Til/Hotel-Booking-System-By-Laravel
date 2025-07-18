@@ -42,7 +42,13 @@ class AdminController extends Controller
 
     public function add_room(Request $request)
     {
-        return view('admin.create_room');
+        $data = new Room();
+        $data->room_title = $request->title;
+        $data->description = $request->description;
+        $data->price = $request->price;
+        $data->wifi = $request->wifi;
+        $data->room_type = $request->type;
+        $data->save();
     }
 
 
