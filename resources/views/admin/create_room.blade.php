@@ -35,7 +35,7 @@
                                 <label>Room Title</label>
                                 <input type="text" name="title">
                             </div>
-                            <div>
+                            <div class="div_deg">
                                 <label>Description</label>
 
                                 <textarea name="description"></textarea>
