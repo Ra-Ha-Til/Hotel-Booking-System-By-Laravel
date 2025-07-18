@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    @include('admin.css')
 </head>
 
 <body>
-    <h1>Create room</h1>
+    @include('admin.header')
+    <div class="d-flex align-items-stretch">
+
+        <!-- Sidebar Navigation-->
+        @include('admin.sidebar')
+        <!-- Sidebar Navigation end-->
+
+        <!-- body-->
+        @include('admin.body')
+        <!-- end body-->
+
+        <!-- footer-->
+        @include('admin.footer')
+        <!-- end footer-->
 </body>
 
 </html>
