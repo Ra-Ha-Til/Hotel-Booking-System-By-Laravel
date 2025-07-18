@@ -6,7 +6,8 @@
 
     <style type="text/css">
         label {
-            display: inline-block
+            display: inline-block;
+            width: 200px;
         }
     </style>
 </head>
