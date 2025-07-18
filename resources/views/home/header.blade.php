@@ -39,7 +39,7 @@
                                  <a class="nav-link" href="contact.html">Contact Us</a>
                               </li>
 
-                              <li class="nav-item" style ="padding-right 10px">
+                              <li class="nav-item" style ="padding-right: 10px;">
                                  <a class="btn btn-success" href="contact.html">Login</a>
                               </li>
 
