@@ -38,9 +38,11 @@
 
                                 <select name="type">
 
-                                    <option>
+                                    <option value="regular"> Regular</option>
 
-                                    </option>
+                                    <option value="regular"> Regular</option>
+
+                                    <option value="regular"> Regular</option>
 
 
 
