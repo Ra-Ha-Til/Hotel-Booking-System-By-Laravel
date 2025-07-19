@@ -28,11 +28,7 @@
 
         td {
             padding: 20px;
-            vertical-align: middle;
-            max-width: 100px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
+
         }
 
         img {
