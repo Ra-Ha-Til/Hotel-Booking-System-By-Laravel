@@ -21,12 +21,12 @@
 
                     <table>
                         <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th>Room Title</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Wifi</th>
+                            <th>Room Type</th>
+                            <th>Image</th>
                         </tr>
                     </table>
 
