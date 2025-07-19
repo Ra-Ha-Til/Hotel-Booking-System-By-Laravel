@@ -3,19 +3,26 @@
 
 <head>
     @include('admin.css')
-
     <style type="text/css">
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* Full viewport height */
+            width: 100%;
+        }
+
         .table_deg {
             border: 2px solid white;
-            margin: auto;
-            width: 30%;
+            width: 90%;
+            /* Wider for better fit */
             text-align: center;
-            margin-top: 40px;
         }
 
         .th_deg {
             background-color: skyblue;
-            padding: 2px;
+            padding: 10px;
         }
 
         tr {
@@ -23,9 +30,11 @@
         }
 
         td {
-            padding: 3px;
+            padding: 8px;
+            vertical-align: middle;
         }
     </style>
+
 </head>
 
 <body>
