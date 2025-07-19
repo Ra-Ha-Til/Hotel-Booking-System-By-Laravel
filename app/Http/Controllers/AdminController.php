@@ -64,7 +64,10 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
-
+    public function view_room()
+    {
+        return view('admin.view_room');
+    }
 
 
 }
