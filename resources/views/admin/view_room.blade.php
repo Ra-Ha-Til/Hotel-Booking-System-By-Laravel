@@ -5,7 +5,7 @@
     @include('admin.css')
     <style type="text/css">
         .table_deg {
-            min-width: 1000px;
+
             border: 2px solid white;
 
         }
