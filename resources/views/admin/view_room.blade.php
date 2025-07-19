@@ -10,8 +10,8 @@
         }
 
         .table_deg {
-            min-width: 100px;
-            border: 2px solid white;
+            min-width: 1000px;
+            border: 5px solid white;
             text-align: center;
         }
 
