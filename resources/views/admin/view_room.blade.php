@@ -21,11 +21,11 @@
         }
 
         tr {
-            border: 2px solid white;
+            border: 3px solid white;
         }
 
         td {
-            padding: 8px;
+            padding: 12px;
             vertical-align: middle;
             max-width: 200px;
             white-space: nowrap;
