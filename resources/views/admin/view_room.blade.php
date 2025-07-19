@@ -25,9 +25,9 @@
         }
 
         td {
-            padding: 12px;
+            padding: 20px;
             vertical-align: middle;
-            max-width: 200px;
+            max-width: 100px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
