@@ -70,7 +70,7 @@
                             <div class="div_deg">
                                 <label>Free Wifi</label>
 
-                                <select name="type">
+                                <select name="wifi">
 
                                     <option selected value="yes"> Yes</option>
                                     <option value="no"> No</option>

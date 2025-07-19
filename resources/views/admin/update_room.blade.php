@@ -55,15 +55,17 @@
 
                             <div class="div_deg">
                                 <label>Price</label>
-                                <input type="number" name="price">
+                                <input type="number" name="price" value="{{ $data->price}}">
                             </div>
 
-                            <div class="div_deg">
+                            <div class=" div_deg">
                                 <label>Room Type</label>
 
                                 <select name="type">
 
-                                    <option selected value="regular"> Regular</option>
+                                    <option selected value="{{ $data->room_title}}"> {{ $data->room_type}} </option>
+
+                                    <option selected value=" regular"> Regular</option>
                                     <option value="premium"> Premium</option>
                                     <option value="deluxe"> Deluxe</option>
 
@@ -73,7 +75,10 @@
                             <div class="div_deg">
                                 <label>Free Wifi</label>
 
-                                <select name="type">
+                                <select name="wifi">
+
+                                    <option selected value="{{ $data->wifi}}"> {{ $data->wifi}}>
+                                    </option>
 
                                     <option selected value="yes"> Yes</option>
                                     <option value="no"> No</option>
@@ -82,12 +87,17 @@
                             </div>
 
                             <div class="div_deg">
+                                <label>Current Image</label>
+                                <img style="margin: auto" width="100" src="/room/{{ $data->image }}">
+                            </div>
+
+                            <div class="div_deg">
                                 <label>Upload Image</label>
                                 <input type="file" name="image">
                             </div>
 
                             <div class="div_deg">
-                                <input class="btn btn-primary" type="submit" value="Add Room">
+                                <input class="btn btn-primary" type="submit" value="Update Room">
                             </div>
 
                         </form>
