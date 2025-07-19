@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+
 use App\Models\User;
+
 use App\Models\Room;
 use Illuminate\Support\Facades\Auth;
 
@@ -32,7 +34,8 @@ class AdminController extends Controller
 
     public function home()
     {
-        return view('home.index');
+        $room = Room::all();
+        return view('home.index', compact('room'));
     }
 
     public function create_room()
