@@ -19,7 +19,7 @@
         }
 
         tr {
-            border: 3px solid white;
+            border: 2px solid white;
         }
 
         td {
@@ -55,7 +55,7 @@
                         @foreach($data as $data)
                             <tr>
                                 <td>{{ $data->room_title }}</td>
-                                <td>{!! Str::limit($data->description, 150) !!}</td>
+                                <td>{!! Str::limit($data->description, 100) !!}</td>
                                 <td>{{ $data->price}}$</td>
                                 <td>{{ $data->wifi }}</td>
                                 <td>{{ $data->room_type }}</td>
