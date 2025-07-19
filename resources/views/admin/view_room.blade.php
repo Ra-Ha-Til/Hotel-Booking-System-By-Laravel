@@ -8,7 +8,14 @@
         .table_deg {
             border: 2px solid white;
             margin: auto;
-            width: 50%
+            width: 50%;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .th_deg {
+            background-color: skyblue;
+            padding: 15px;
         }
     </style>
 </head>
@@ -28,12 +35,12 @@
 
                     <table class="table_deg">
                         <tr>
-                            <th>Room Title</th>
-                            <th>Description</th>
-                            <th>Price</th>
-                            <th>Wifi</th>
-                            <th>Room Type</th>
-                            <th>Image</th>
+                            <th class="th_deg">Room Title</th>
+                            <th class="th_deg">Description</th>
+                            <th class="th_deg">Price</th>
+                            <th class="th_deg">Wifi</th>
+                            <th class="th_deg">Room Type</th>
+                            <th class="th_deg">Image</th>
                         </tr>
 
 
