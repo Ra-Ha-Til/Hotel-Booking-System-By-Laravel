@@ -15,6 +15,7 @@
 
         .th_deg {
             background-color: skyblue;
+            padding: 15px;
         }
     </style>
 </head>
