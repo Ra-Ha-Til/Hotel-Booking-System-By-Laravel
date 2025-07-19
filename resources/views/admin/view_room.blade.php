@@ -3,6 +3,14 @@
 
 <head>
     @include('admin.css')
+
+    <style type="text/css">
+        .table_deg {
+            border: 2px solid white;
+            margin: auto;
+            width: 50%
+        }
+    </style>
 </head>
 
 <body>
@@ -18,7 +26,7 @@
             <div class="page-header">
                 <div class="container-fluid">
 
-                    <table>
+                    <table class="table_deg">
                         <tr>
                             <th>Room Title</th>
                             <th>Description</th>
@@ -26,6 +34,16 @@
                             <th>Wifi</th>
                             <th>Room Type</th>
                             <th>Image</th>
+                        </tr>
+
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                     </table>
 
