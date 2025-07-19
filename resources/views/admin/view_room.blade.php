@@ -31,12 +31,12 @@
 
                     <table class="table_deg">
                         <tr>
-                            <th>Room Title</th>
-                            <th>Description</th>
-                            <th>Price</th>
-                            <th>Wifi</th>
-                            <th>Room Type</th>
-                            <th>Image</th>
+                            <th class="th_deg">Room Title</th>
+                            <th class="th_deg">Description</th>
+                            <th class="th_deg">Price</th>
+                            <th class="th_deg">Wifi</th>
+                            <th class="th_deg">Room Type</th>
+                            <th class="th_deg">Image</th>
                         </tr>
 
                         <tr>
