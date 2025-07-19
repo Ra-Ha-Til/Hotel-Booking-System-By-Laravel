@@ -54,8 +54,8 @@
                         @foreach($data as $data)
                             <tr>
                                 <td>{{ $data->room_title }}</td>
-                                <td>{{ $data->description }}</td>
-                                <td>{{ $data->price}}</td>
+                                <td>{!! Str::limit($data->description, 150) !!}</td>
+                                <td>{{ $data->price}}$</td>
                                 <td>{{ $data->wifi }}</td>
                                 <td>{{ $data->room_type }}</td>
                                 <td>
