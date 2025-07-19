@@ -7,6 +7,10 @@
     <style type="text/css">
         .table_deg {
             border: 2px solid white;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -42,7 +46,7 @@
                             <td>zxcc</td>
                             <td>wqrew</td>
                             <td>zxcv</td>
-                            <td>weyrtgyhry</td>
+
                         </tr>
                     </table>
 
