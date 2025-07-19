@@ -38,6 +38,9 @@
                         <h1 style="font-size: 30px; font-weight: bold;"> Add Rooms</h1>
 
                         <form action="{{ url('add_room') }}" method="POST" enctype="multipart/form-data">
+
+                            @csrf
+
                             <div class="div_deg">
                                 <label>Room Title</label>
                                 <input type="text" name="title">
