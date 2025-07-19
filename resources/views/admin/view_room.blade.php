@@ -4,17 +4,10 @@
 <head>
     @include('admin.css')
     <style type="text/css">
-        .table-wrapper {
-            width: 100%;
-            overflow-x: auto;
-        }
-
         .table_deg {
             min-width: 1000px;
-            border: 5px solid white;
-            margin: auto;
-            width: 80%;
-            text-align: center;
+            border: 2px solid white;
+
         }
 
         .th_deg {
@@ -65,14 +58,12 @@
                             @foreach($data as $data)
                                 <tr>
                                     <td>{{ $data->room_title }}</td>
-                                    <td title="{{ $data->description }}">
-                                        {!! Str::limit($data->description, 100) !!}
-                                    </td>
+                                    <td title="{{ $data->description }}">{{ Str::limit($data->description, 100) }}</td>
                                     <td>{{ $data->price }}$</td>
                                     <td>{{ $data->wifi }}</td>
                                     <td>{{ $data->room_type }}</td>
                                     <td>
-                                        <img src="room/{{ $data->image }}" alt="Room Image">
+                                        <img src="room/{{ $data->image }}" width="100" alt="Room Image">
                                     </td>
                                     <td>
                                         <a onclick="return confirm('Are you sure to delete this?')" class="btn btn-danger"
