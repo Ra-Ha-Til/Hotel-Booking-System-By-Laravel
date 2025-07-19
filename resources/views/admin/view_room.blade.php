@@ -21,6 +21,10 @@
         tr {
             border: 3px solid white;
         }
+
+        td {
+            padding: 10px;
+        }
     </style>
 </head>
 
