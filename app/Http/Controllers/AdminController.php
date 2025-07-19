@@ -78,6 +78,12 @@ class AdminController extends Controller
         return redirect()->back();
     }
 
+    public function room_update($id)
+    {
+        $data = Room::find($id);
+        return view('admin.update_room', compact('data'));
+    }
+
 
 
 }
