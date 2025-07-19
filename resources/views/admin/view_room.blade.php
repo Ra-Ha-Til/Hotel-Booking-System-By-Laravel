@@ -4,32 +4,37 @@
 <head>
     @include('admin.css')
     <style type="text/css">
-        .table_deg {
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+        }
 
+        .table_deg {
+            min-width: 1000px;
             border: 2px solid white;
-            margin: auto;
-            width: 50%;
             text-align: center;
-            margin-top: 40px;
         }
 
         .th_deg {
             background-color: skyblue;
-            padding: 15px;
-
+            padding: 10px;
         }
 
         tr {
-            border: 3px solid white;
+            border: 2px solid white;
         }
 
         td {
-            padding: 20px;
-
+            padding: 8px;
+            vertical-align: middle;
+            max-width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         img {
-            max-width: 50px;
+            max-width: 100px;
             height: auto;
         }
     </style>
@@ -62,12 +67,14 @@
                             @foreach($data as $data)
                                 <tr>
                                     <td>{{ $data->room_title }}</td>
-                                    <td title="{{ $data->description }}">{{ Str::limit($data->description, 100) }}</td>
+                                    <td title="{{ $data->description }}">
+                                        {!! Str::limit($data->description, 100) !!}
+                                    </td>
                                     <td>{{ $data->price }}$</td>
                                     <td>{{ $data->wifi }}</td>
                                     <td>{{ $data->room_type }}</td>
                                     <td>
-                                        <img src="room/{{ $data->image }}" width="100" alt="Room Image">
+                                        <img src="room/{{ $data->image }}" alt="Room Image">
                                     </td>
                                     <td>
                                         <a onclick="return confirm('Are you sure to delete this?')" class="btn btn-danger"
