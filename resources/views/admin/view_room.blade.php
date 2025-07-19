@@ -19,7 +19,11 @@
         }
 
         tr {
-            border: 3px sokid white;
+            border: 3px solid white;
+        }
+
+        td {
+            padding: 10px;
         }
     </style>
 </head>
@@ -51,8 +55,8 @@
                         @foreach($data as $data)
                             <tr>
                                 <td>{{ $data->room_title }}</td>
-                                <td>{{ $data->description }}</td>
-                                <td>{{ $data->price }}</td>
+                                <td>{!! Str::limit($data->description, 80) !!}</td>
+                                <td>{{ $data->price }}$</td>
                                 <td>{{ $data->wifi }}</td>
                                 <td>{{ $data->room_type }}</td>
                                 <td>
