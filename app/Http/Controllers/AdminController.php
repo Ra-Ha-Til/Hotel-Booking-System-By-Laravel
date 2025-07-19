@@ -66,7 +66,8 @@ class AdminController extends Controller
 
     public function view_room()
     {
-        return view('admin.view_room');
+        $data = Room::all();
+        return view('admin.view_room', compact('data'));
     }
 
 

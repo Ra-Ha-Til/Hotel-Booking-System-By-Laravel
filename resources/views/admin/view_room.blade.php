@@ -17,6 +17,10 @@
             background-color: skyblue;
             padding: 15px;
         }
+
+        tr {
+            border: 3px solid white;
+        }
     </style>
 </head>
 
@@ -43,26 +47,25 @@
                             <th class="th_deg">Image</th>
                         </tr>
 
+                        @foreach($data as $data)
+                            <tr>
+                                <td>{{ $data->room_title }}</td>
+                                <td>{{ $data->description }}</td>
+                                <td>{{ $data->price}}</td>
+                                <td>{{ $data->wifi }}</td>
+                                <td>{{ $data->room_type }}</td>
+                                <td>
+                                    <img src="room/{{ $data->image}}">
+                                </td>
+                            </tr>
 
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
+                        @endforeach
                     </table>
 
 
                 </div>
             </div>
         </div>
-
-
-
-
-
 
         <!-- footer-->
         @include('admin.footer')
