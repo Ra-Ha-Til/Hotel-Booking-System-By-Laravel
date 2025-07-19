@@ -7,7 +7,8 @@
         .table_deg {
 
             border: 2px solid white;
-
+            margin: auto;
+            width: 50%;
         }
 
         .th_deg {
