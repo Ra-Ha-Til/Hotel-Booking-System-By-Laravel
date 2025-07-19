@@ -8,7 +8,7 @@
         .table_deg {
             border: 2px solid white;
             margin: auto;
-            width: 50%;
+            width: 80%;
             text-align: center;
             margin-top: 40px;
         }
