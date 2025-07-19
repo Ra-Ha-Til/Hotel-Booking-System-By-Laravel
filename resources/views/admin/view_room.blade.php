@@ -59,7 +59,7 @@
                                 <td>{{ $data->wifi }}</td>
                                 <td>{{ $data->room_type }}</td>
                                 <td>
-                                    <img src="room/{{ $data->image}}">
+                                    <img width="100" src="room/{{ $data->image}}">
                                 </td>
                             </tr>
 
