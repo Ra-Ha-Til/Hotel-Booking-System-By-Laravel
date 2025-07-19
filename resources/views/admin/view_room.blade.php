@@ -9,11 +9,14 @@
             border: 2px solid white;
             margin: auto;
             width: 50%;
+            text-align: center;
+            margin-top: 40px;
         }
 
         .th_deg {
             background-color: skyblue;
-            padding: 10px;
+            padding: 15px;
+
         }
 
         tr {
