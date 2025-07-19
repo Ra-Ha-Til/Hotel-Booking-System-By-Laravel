@@ -17,6 +17,10 @@
             background-color: skyblue;
             padding: 15px;
         }
+
+        tr {
+            border: 3px sokid white;
+        }
     </style>
 </head>
 
@@ -51,7 +55,9 @@
                                 <td>{{ $data->price }}</td>
                                 <td>{{ $data->wifi }}</td>
                                 <td>{{ $data->room_type }}</td>
-                                <td>zxcv</td>
+                                <td>
+                                    <img width="60" src="room/{{ $data->image }}">
+                                </td>
 
                         @endforeach
 
