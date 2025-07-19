@@ -13,9 +13,7 @@
         @include('admin.sidebar')
         <!-- Sidebar Navigation end-->
 
-        <!-- body-->
-        @include('admin.body')
-        <!-- end body-->
+
 
         <!-- footer-->
         @include('admin.footer')
