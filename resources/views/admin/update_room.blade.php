@@ -2,6 +2,8 @@
 <html>
 
 <head>
+
+    <base href="/public">
     @include('admin.css')
 
     <style type="text/css">
@@ -43,11 +45,12 @@
 
                             <div class="div_deg">
                                 <label>Room Title</label>
-                                <input type="text" name="title">
+                                <input type="text" name="title" value="{{ $data->room_title }}">
                             </div>
                             <div class="div_deg">
                                 <label>Description</label>
-                                <textarea name="description"></textarea>
+
+                                <textarea name="description"> {{ $data->description }}"</textarea>
                             </div>
 
                             <div class="div_deg">
