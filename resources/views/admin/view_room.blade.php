@@ -15,7 +15,7 @@
 
         .th_deg {
             background-color: skyblue;
-            padding: 5px;
+            padding: 2px;
         }
 
         tr {
