@@ -39,7 +39,7 @@
 
                         <h1 style="font-size: 30px; font-weight: bold;"> Update Room</h1>
 
-                        <form action="{{ url('add_room') }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ url('edit_room', $data->id) }}" method="POST" enctype="multipart/form-data">
 
                             @csrf
 
