@@ -8,14 +8,14 @@
         .table_deg {
             border: 2px solid white;
             margin: auto;
-            width: 50%;
+            width: 30%;
             text-align: center;
             margin-top: 40px;
         }
 
         .th_deg {
             background-color: skyblue;
-            padding: 15px;
+            padding: 5px;
         }
 
         tr {
