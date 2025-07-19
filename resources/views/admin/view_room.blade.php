@@ -46,11 +46,11 @@
 
                         @foreach($data as $data)
                             <tr>
-                                <td>dfasf</td>
-                                <td>sdfsdf</td>
-                                <td>fdg</td>
-                                <td>zxcc</td>
-                                <td>wqrew</td>
+                                <td>{{ $data->room_title }}</td>
+                                <td>{{ $data->description }}</td>
+                                <td>{{ $data->price }}</td>
+                                <td>{{ $data->wifi }}</td>
+                                <td>{{ $data->room_type }}</td>
                                 <td>zxcv</td>
 
                         @endforeach
