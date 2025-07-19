@@ -12,6 +12,8 @@
         .table_deg {
             min-width: 1000px;
             border: 5px solid white;
+            margin: auto;
+            width: 80%;
             text-align: center;
         }
 
