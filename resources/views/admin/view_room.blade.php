@@ -12,6 +12,10 @@
             text-align: center;
             margin-top: 40px;
         }
+
+        .th_deg {
+            background-color: skyblue;
+        }
     </style>
 </head>
 
