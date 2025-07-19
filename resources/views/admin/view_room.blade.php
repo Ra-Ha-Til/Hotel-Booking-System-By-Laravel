@@ -44,13 +44,16 @@
                             <th class="th_deg">Image</th>
                         </tr>
 
-                        <tr>
-                            <td>dfasf</td>
-                            <td>sdfsdf</td>
-                            <td>fdg</td>
-                            <td>zxcc</td>
-                            <td>wqrew</td>
-                            <td>zxcv</td>
+                        @foreach($data as $data)
+                            <tr>
+                                <td>dfasf</td>
+                                <td>sdfsdf</td>
+                                <td>fdg</td>
+                                <td>zxcc</td>
+                                <td>wqrew</td>
+                                <td>zxcv</td>
+
+                        @endforeach
 
                         </tr>
                     </table>
