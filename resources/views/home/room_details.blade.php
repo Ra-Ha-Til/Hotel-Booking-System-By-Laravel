@@ -63,7 +63,7 @@
                 </div>
 
                 <div class=" col-md-4">
-                    <h1 style="font-size: 40px !important">Book Now</h1>
+                    <h1 style="font-size: 40px !important">Book Room</h1>
                     <div>
                         <label>Name</label>
                         <input type="text" nme="name">
@@ -85,9 +85,9 @@
                         <input type="date" nme="endDate" id="endDate">
                     </div>
 
-                    <div>
+                    <div style="padding-top: 20px">
 
-                        <input type="submit" class="btn btn-primary" value="Book Room">
+                        <input type="submit" class="btn btn-primary" value="Book Now">
                     </div>
 
 
