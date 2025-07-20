@@ -66,12 +66,18 @@
                     </div>
                     <div>
                         <label>Start Date</label>
-                        <input type="date" nme="startDate">
+                        <input type="date" nme="startDate" id="startDate">
                     </div>
                     <div>
                         <label>End Date</label>
-                        <input type="date" nme="endDate">
+                        <input type="date" nme="endDate" id="endDate">
                     </div>
+
+                    <div>
+
+                        <input type="submit" class="btn btn-primary" value="Book Room">
+                    </div>
+
 
                 </div>
 
@@ -85,6 +91,18 @@
     @include('home.footer')
     <!--end footer -->
 
+
+    <script type="text/javascript">
+        $function()
+        {
+            var dtToday = new Date();
+            var month = dtToday.getMonth() + 1;
+            var dtToday = new Date();
+            var dtToday = new Date();
+            var dtToday = new Date();
+
+        }
+    </script>
 </body>
 
 </html>
