@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <base href="/public">
     <!-- in this section css call from the home/css.blade.php -->
+    <base href="/public">
     @include('home.css')
 </head>
 
@@ -21,6 +21,7 @@
         @include('home.header')
     </header>
     <!-- end header -->
+
 
 
     <!--  footer -->
