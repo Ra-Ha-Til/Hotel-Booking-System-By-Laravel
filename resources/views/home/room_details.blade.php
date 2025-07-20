@@ -52,7 +52,7 @@
                 </div>
 
                 <div class=" col-md-4">
-                    <h1 style="font-size: 40px"></h1>Book Room</h1>
+                    <h1 style="font-size: 40px !important">Book Now</h1>
                     <div>
                         <label>Name</label>
                         <input type="text" nme="name">
