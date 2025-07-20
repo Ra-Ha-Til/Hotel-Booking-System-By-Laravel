@@ -5,6 +5,17 @@
     <!-- in this section css call from the home/css.blade.php -->
     <base href="/public">
     @include('home.css')
+
+    <style type="text/css">
+        label {
+            display: inline-block;
+            width: 200px;
+        }
+
+        input {
+            width: 100%
+        }
+    </style>
 </head>
 
 <!-- .....................body .......................-->
