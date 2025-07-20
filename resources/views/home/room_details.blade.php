@@ -51,6 +51,30 @@
                     </div>
                 </div>
 
+                <div class=" col-md-4">
+                    <div>
+                        <label>Name</label>
+                        <input type="text" nme="name">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" nme="email">
+                    </div>
+                    <div>
+                        <label>Phone</label>
+                        <input type="number" nme="phone">
+                    </div>
+                    <div>
+                        <label>Start Date</label>
+                        <input type="date" nme="startDate">
+                    </div>
+                    <div>
+                        <label>End Date</label>
+                        <input type="date" nme="endDate">
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
