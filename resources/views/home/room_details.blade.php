@@ -93,8 +93,7 @@
 
 
     <script type="text/javascript">
-        $function()
-        {
+        $(function () {
             var dtToday = new Date();
             var month = dtToday.getMonth() + 1;
             var day = dtToday.getDate();
@@ -109,7 +108,7 @@
             $('#startDate').attr('min', maxDate);
             $('#endDate').attr('min', maxDate);
 
-        }
+        });
     </script>
 </body>
 
