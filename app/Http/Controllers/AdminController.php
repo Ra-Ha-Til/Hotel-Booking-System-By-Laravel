@@ -16,7 +16,8 @@ class AdminController extends Controller
             $usertype = Auth()->user()->usertype;
             //...........Check user login.................
             if ($usertype == 'user') {
-                return view('home.index'); //after login goto the dashboard
+                $room = Room::all();
+                return view('home.index', compact('room')); //after login goto the dashboard
 
             }
 
