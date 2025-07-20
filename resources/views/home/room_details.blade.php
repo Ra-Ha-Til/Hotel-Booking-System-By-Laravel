@@ -69,7 +69,7 @@
 
                         @foreach($errors->all() as $errors)
 
-                            <li>
+                            <li style="color:red">
                                 {{ $errors }}
                             </li>
 
@@ -81,23 +81,23 @@
                         @csrf
                         <div>
                             <label>Name</label>
-                            <input type="text" nme="name">
+                            <input type="text" name="name">
                         </div>
                         <div>
                             <label>Email</label>
-                            <input type="email" nme="email">
+                            <input type="email" name="email">
                         </div>
                         <div>
                             <label>Phone</label>
-                            <input type="number" nme="phone">
+                            <input type="number" name="phone">
                         </div>
                         <div>
                             <label>Start Date</label>
-                            <input type="date" nme="startDate" id="startDate">
+                            <input type="date" name="startDate" id="startDate">
                         </div>
                         <div>
                             <label>End Date</label>
-                            <input type="date" nme="endDate" id="endDate">
+                            <input type="date" name="endDate" id="endDate">
                         </div>
 
                         <div style="padding-top: 20px">
