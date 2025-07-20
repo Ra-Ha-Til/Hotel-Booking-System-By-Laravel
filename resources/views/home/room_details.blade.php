@@ -37,8 +37,8 @@
 
                 <div class="col-md-8">
                     <div id="serv_hover" class="room">
-                        <div class="room_img">
-                            <img style="height: 200px; width: 350px" src="/room/{{ $room->image }}" alt="#" />
+                        <div style="padding:20px" class="room_img">
+                            <img style="height: 300px; width: 800px" src="/room/{{ $room->image }}" alt="#" />
                         </div>
                         <div class="bed_room">
                             <h2>{{ $room->room_title }}</h2>
