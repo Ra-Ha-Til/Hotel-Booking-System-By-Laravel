@@ -42,7 +42,8 @@
                         </div>
                         <div class="bed_room">
                             <h3>{{ $room->room_title }}</h3>
-                            <p></p>
+                            <p style="padding: 12px">{{ $room->description }}</p>
+                            <h3>{{ $room->room_title }}</h3>
 
                         </div>
                     </div>
