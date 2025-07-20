@@ -70,15 +70,18 @@
                         @csrf
                         <div>
                             <label>Name</label>
-                            <input type="text" name="name" required>
+                            <input type="text" name="name" required @if(Auth::id()) value="{{ Auth::user()->name }}"
+                            @endif>
                         </div>
                         <div>
                             <label>Email</label>
-                            <input type="email" name="email" required>
+                            <input type="email" name="email" required @if(Auth::id()) value="{{ Auth::user()->email }}"
+                            @endif>
                         </div>
                         <div>
                             <label>Phone</label>
-                            <input type="number" name="phone" required>
+                            <input type="number" name="phone" required @if(Auth::id()) value="{{ Auth::user()->phone }}"
+                            @endif>
                         </div>
                         <div>
                             <label>Start Date</label>
