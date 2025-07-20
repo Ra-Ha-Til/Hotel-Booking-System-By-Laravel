@@ -65,7 +65,7 @@
                 <div class=" col-md-4">
                     <h1 style="font-size: 40px !important">Book Room</h1>
 
-                    <form action="{{ url('add_booking') }}" method="POST">
+                    <form action="{{ url('add_booking', $room->id) }}" method="POST">
                         @csrf
                         < <div>
                             <label>Name</label>
