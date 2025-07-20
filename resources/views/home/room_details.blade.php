@@ -43,7 +43,7 @@
                         <div class="bed_room">
                             <h3>{{ $room->room_title }}</h3>
                             <p style="padding: 12px">{{ $room->description }}</p>
-                            <h3>{{ $room->room_title }}</h3>
+                            <h4>Free Wifi: {{ $room->wifi }}</h4>
 
                         </div>
                     </div>
