@@ -64,37 +64,40 @@
 
                 <div class=" col-md-4">
                     <h1 style="font-size: 40px !important">Book Room</h1>
-                    <div>
-                        <label>Name</label>
-                        <input type="text" nme="name">
-                    </div>
-                    <div>
-                        <label>Email</label>
-                        <input type="email" nme="email">
-                    </div>
-                    <div>
-                        <label>Phone</label>
-                        <input type="number" nme="phone">
-                    </div>
-                    <div>
-                        <label>Start Date</label>
-                        <input type="date" nme="startDate" id="startDate">
-                    </div>
-                    <div>
-                        <label>End Date</label>
-                        <input type="date" nme="endDate" id="endDate">
-                    </div>
 
-                    <div style="padding-top: 20px">
-
-                        <input type="submit" class="btn btn-primary" value="Book Now">
-                    </div>
-
-
+                    <form action="{{ url('add_booking') }}" method="POST">
+                        @csrf
+                        < <div>
+                            <label>Name</label>
+                            <input type="text" nme="name">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" nme="email">
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input type="number" nme="phone">
+                </div>
+                <div>
+                    <label>Start Date</label>
+                    <input type="date" nme="startDate" id="startDate">
+                </div>
+                <div>
+                    <label>End Date</label>
+                    <input type="date" nme="endDate" id="endDate">
                 </div>
 
+                <div style="padding-top: 20px">
+
+                    <input type="submit" class="btn btn-primary" value="Book Now">
+                </div>
+                </form>
+
             </div>
+
         </div>
+    </div>
     </div>
 
 
