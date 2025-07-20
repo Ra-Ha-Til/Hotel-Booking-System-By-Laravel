@@ -35,10 +35,10 @@
             <div class="row">
 
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-8">
                     <div id="serv_hover" class="room">
                         <div class="room_img">
-                            <img style="height: 200px; width: 350px" src="" alt="#" />
+                            <img style="height: 200px; width: 350px" src="/room/{{ $room->image }}" alt="#" />
                         </div>
                         <div class="bed_room">
                             <h2>{{ $room->room_title }}</h2>
