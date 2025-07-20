@@ -41,7 +41,7 @@
                             <img style="height: 200px; width: 350px" src="" alt="#" />
                         </div>
                         <div class="bed_room">
-                            <h3></h3>
+                            <h3>{{ $room->room_title }}</h3>
                             <p></p>
 
                         </div>
