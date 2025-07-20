@@ -16,7 +16,7 @@
           <div class="col-md-4 col-sm-6">
             <div id="serv_hover" class="room">
                <div class="room_img">
-                 <figure><img src="images/room1.jpg" alt="#" /></figure>
+                 <figure><img src="room/{{ $rooms->image }}" alt="#" /></figure>
                </div>
                <div class="bed_room">
                  <h3>{{ $rooms->room_title }}</h3>
