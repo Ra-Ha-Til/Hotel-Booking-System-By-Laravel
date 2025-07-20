@@ -41,9 +41,11 @@
                             <img style="height: 200px; width: 350px" src="" alt="#" />
                         </div>
                         <div class="bed_room">
-                            <h3>{{ $room->room_title }}</h3>
+                            <h2>{{ $room->room_title }}</h2>
                             <p style="padding: 12px">{{ $room->description }}</p>
-                            <h4>Free Wifi: {{ $room->wifi }}</h4>
+                            <h4 style="padding: 12px">Free Wifi: {{ $room->wifi }}</h4>
+                            <h4 style="padding: 12px">Room Type: {{ $room->room_type }}</h4>
+                            <h3 style="padding: 12px">Price: {{ $room->price }}</h3>
 
                         </div>
                     </div>
