@@ -6,7 +6,7 @@
             <div class="full">
                <div class="center-desk">
                   <div class="logo">
-                     <a href="{{ url('/') }}"><img src="images/logo.png" alt="#" /></a>
+                     <a href="{{ url('/') }}"><img src="images/canvas.jpg" alt="#" /></a>
                   </div>
                </div>
             </div>
