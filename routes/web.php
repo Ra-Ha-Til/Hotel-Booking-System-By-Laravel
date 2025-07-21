@@ -5,6 +5,11 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 
 
+//route structure
+//Route::get('/url', [ControllerName::class, 'methodName']);
+
+
+
 route::get('/', [AdminController::class, 'home']);
 
 
